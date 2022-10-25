@@ -1,9 +1,4 @@
-# Change the current working directory
-path = 'C:/Users/user/Documents/Data Camp/Projects/New Projects/image captioning'
-import os
-os.chdir(path)
-os.getcwd()
-
+'''Image Captioning inspired from keras'''
 import os
 import re
 import pickle
@@ -21,7 +16,7 @@ from ai_layers.LayerTransformerDecBlock import TransformerDecoderBlock
 from ai_layers.LayerTransformerBlock import TransformerEncoderBlock
 from ai_layers.ImageCaptioningModel import ImageCaptioningModel
 
-seed = 111
+seed = 0
 np.random.seed(seed)
 tf.random.set_seed(seed)
 
