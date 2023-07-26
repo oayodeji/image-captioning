@@ -1,4 +1,4 @@
-# image-captioning
+# Image Captioning
  
 ## Acknowledgement
 
